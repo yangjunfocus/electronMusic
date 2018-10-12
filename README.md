@@ -1,4 +1,4 @@
-# my-project
+# electron-cloud-music
 
 > An electron-vue project
 
