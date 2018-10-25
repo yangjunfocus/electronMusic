@@ -1,0 +1,14 @@
+@mixin scroll-m($selector) {
+    #{$selector} {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        height: 100%;
+
+        /deep/ .el-scrollbar__wrap {
+            overflow-x: hidden;
+        }
+    }
+}
+
+
